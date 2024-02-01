@@ -1,11 +1,11 @@
 #Remove pass and complete the code
 def check_character(word, index):
-   check = word[index]
-   if check.isalpha():
+   character = word[index]
+   if character.isalpha():
        print("letter")
-   elif check.isdigit():
+   elif character.isdigit():
        print("digit")
-   elif check.isspace():
+   elif character.isspace():
        print("white space")
    else:
        print("unknown")
