@@ -2,13 +2,13 @@
 def check_character(word, index):
    character = word[index]
    if character.isalpha():
-       print("letter")
+       return "letter"
    elif character.isdigit():
-       print("digit")
+       return "digit"
    elif character.isspace():
-       print("white space")
+      return "white space"
    else:
-       print("unknown")
+       return "unknown"
 
 
 if __name__ == '__main__': 
